@@ -39,7 +39,8 @@ This repository contains my daily Embedded C revision and hands-on practice prog
 
 Practice programs using concepts learned so far.
 
-Programs Completed:
+**Programs Completed**
+
 - Grade Calculator
 - Even/Odd Checker
 - Largest of Two Numbers
@@ -50,11 +51,60 @@ Programs Completed:
 
 ---
 
+### Day 04 - Storage Classes
+
+- Introduction to Storage Classes
+- `auto`
+- `static`
+- `register`
+- `extern`
+- Variable Scope
+- Variable Lifetime
+- Stack Memory
+- Global Variables
+
+**Program**
+
+- `04_Storage_Classes.c`
+
+---
+
+### Day 05 - Auto vs Static
+
+Comparison between `auto` and `static` storage classes with function call examples.
+
+**Concepts Covered**
+
+- Automatic Variables
+- Static Variables
+- Scope
+- Lifetime
+- Memory Behaviour
+- Function Call Demonstration
+
+**Program**
+- `05_Auto_vs_Static.c`
+
+---
+
+### Day 06 - Register, Extern & Type Casting
+
+- `register` Storage Class
+- `extern` Storage Class
+- Implicit Type Casting
+- Explicit Type Casting
+- Integer vs Floating Point Division
+- Practical Embedded Examples
+
+**Program**
+- `06_Register_Extern_TypeCasting.c`
+
+---
+
 ## Upcoming Topics
 
-- Storage Classes
-- Type Casting
-- `const` and `volatile`
+- `const`
+- `volatile`
 - Functions
 - Pointers
 - Arrays
@@ -73,7 +123,9 @@ Programs Completed:
 ## Goal
 
 This repository documents my journey of learning and revising Embedded C through:
+
 - Daily revision
 - Hands-on coding practice
 - Interview-oriented programs
 - Consistent GitHub commits
+- Writing clean and well-structured C programs
