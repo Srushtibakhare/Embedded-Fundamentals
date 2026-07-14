@@ -1,118 +1,175 @@
 # Embedded Fundamentals
 
-This repository contains my daily Embedded C revision and hands-on practice programs as I prepare for Embedded Systems, Firmware, and Electronics Engineering roles.
+This repository contains my daily **Embedded C revision**, hands-on coding practice, and interview-oriented programs as I prepare for **Embedded Systems, Firmware, and Electronics Engineering** roles.
 
 **Author:** Srushti Bakhare
-
 ---
 
-## Topics Covered
+# Topics Covered
 
-### Day 01 - Data Types & Memory Basics
+## Day 01 – Data Types & Memory Basics
 
-- Data Types (`int`, `float`, `char`, `bool`)
+- Data Types
 - Variables
 - Memory Addresses
 - Address-of Operator (`&`)
-- Basic Memory Layout
-
-**Program**
-- `01_Data_Types_and_Memory_Layout.c`
+- Memory Layout
 
 ---
 
-### Day 02 - Operators
+## Day 02 – Operators
 
 - Arithmetic Operators
 - Relational Operators
 - Logical Operators
 - Bitwise Operators
-- Integer vs Float Division
-- Simple Embedded Examples
-
-**Program**
-- `02_Operators.c`
+- Integer vs Floating Point Division
 
 ---
 
-### Day 03 - Practice Problems
+## Day 03 – Practice Problems
 
-Practice programs using concepts learned so far.
+Revision of:
 
-**Programs Completed**
+- Data Types
+- Operators
+- Conditional Statements
+
+Programs:
 
 - Grade Calculator
 - Even/Odd Checker
 - Largest of Two Numbers
 - Fan Controller
 
-**Program**
-- `03_Practice_Problems.c`
-
 ---
 
-### Day 04 - Storage Classes
+## Day 04 – Storage Classes
 
-- Introduction to Storage Classes
 - `auto`
 - `static`
 - `register`
 - `extern`
-- Variable Scope
-- Variable Lifetime
-- Stack Memory
+- Scope
+- Lifetime
 - Global Variables
-
-**Program**
-
-- `04_Storage_Classes.c`
 
 ---
 
-### Day 05 - Auto vs Static
-
-Comparison between `auto` and `static` storage classes with function call examples.
-
-**Concepts Covered**
+## Day 05 – Auto vs Static
 
 - Automatic Variables
 - Static Variables
 - Scope
 - Lifetime
-- Memory Behaviour
-- Function Call Demonstration
-
-**Program**
-- `05_Auto_vs_Static.c`
+- Function Call Behaviour
 
 ---
 
-### Day 06 - Register, Extern & Type Casting
+## Day 06 – Register, Extern & Type Casting
 
-- `register` Storage Class
-- `extern` Storage Class
+- `register`
+- `extern`
 - Implicit Type Casting
 - Explicit Type Casting
 - Integer vs Floating Point Division
-- Practical Embedded Examples
-
-**Program**
-- `06_Register_Extern_TypeCasting.c`
 
 ---
 
-## Upcoming Topics
+## Day 07 – Const Qualifier
 
+- `const`
+- Constant Variables
+- Pointer to Constant
+- Constant Pointer
+- Constant Pointer to Constant
+- Embedded Use Cases
+
+---
+
+## Day 08 – Volatile Qualifier
+
+- `volatile`
+- Compiler Optimization
+- Hardware Registers
+- Interrupt Flags
+- `const volatile`
+
+---
+
+## Day 09 – Functions
+
+- Function Declaration
+- Function Definition
+- Function Call
+- Return Types
+- `void` Functions
+
+---
+
+## Day 10 – Function Arguments
+
+- Parameters
+- Arguments
+- Pass by Value
+- Pass by Reference (Using Pointers)
+- Local Variables
+
+---
+
+## Day 11 – Recursion
+
+- Recursive Functions
+- Base Case
+- Recursive Case
+- Factorial
+- Sum of First N Numbers
+
+---
+
+## Day 12 – Practice Problems (Revision 2)
+
+Revision of:
+
+- Storage Classes
+- Type Casting
 - `const`
 - `volatile`
 - Functions
-- Pointers
+- Static Variables
+- Recursion
+
+---
+
+## Day 13 – Pointer Basics
+
+- What is a Pointer?
+- Pointer Declaration
+- Pointer Initialization
+- Address-of Operator (`&`)
+- Dereferencing (`*`)
+- NULL Pointer
+
+---
+
+# Upcoming Topics
+
+- Pointer Arithmetic
+- Pointers and Arrays
 - Arrays
 - Strings
+- Multidimensional Arrays
+- Double Pointers
+- Function Pointers
 - Structures
 - Unions
 - Enums
-- Memory Sections (Stack, Heap, Data, BSS, Text)
+- Memory Sections
+  - Stack
+  - Heap
+  - Data
+  - BSS
+  - Text
 - Dynamic Memory Allocation
 - File Handling
 - Preprocessor Directives
@@ -120,12 +177,21 @@ Comparison between `auto` and `static` storage classes with function call exampl
 
 ---
 
-## Goal
+# Goal
 
-This repository documents my journey of learning and revising Embedded C through:
+This repository documents my journey of learning Embedded C through:
 
 - Daily revision
 - Hands-on coding practice
 - Interview-oriented programs
 - Consistent GitHub commits
-- Writing clean and well-structured C programs
+- Writing clean, readable, and well-structured C programs
+- Building a strong foundation for Embedded Systems and Firmware Development
+
+---
+
+# Progress
+
+- ✅ Days Completed: **13**
+- 📂 Programs Completed: **13**
+- 🎯 Current Topic: **Pointers**
